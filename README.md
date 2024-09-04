@@ -8,6 +8,8 @@ The source code is derived from the [Termux/proot](https://github.com/termux/pro
 
 ## Building
 
+**Note: This binary should be built within the Termux environment.**
+
 To build the `proot` binary, follow these steps:
 
 1. Clone the repository:
