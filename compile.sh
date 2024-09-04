@@ -7,12 +7,13 @@ RESET='\033[0m'
 
 echo -e "${BOLD}${GREEN}Installing compiler... (~150MB) ${RESET}"
 
-pkg i clang make -y
+pkg i clang make libtalloc binutils -y
 
 echo -e "${BOLD}${GREEN}Cleaning...${RESET}"
 sleep 1
 # Clean previous build artifacts
 make clean
+rm proot.tar.gz
 
 echo -e "${BOLD}${GREEN}Starting the build and packaging process...${RESET}"
 sleep 2
