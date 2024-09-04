@@ -5,6 +5,10 @@ GREEN='\033[0;32m'
 BOLD='\033[1m'
 RESET='\033[0m'
 
+echo -e "${BOLD}${GREEN}Installing compiler... (~150MB) ${RESET}"
+
+pkg i clang make -y
+
 echo -e "${BOLD}${GREEN}Cleaning...${RESET}"
 sleep 1
 # Clean previous build artifacts
