@@ -1,6 +1,6 @@
 # Proot
 
-This repository contains the source code for the `proot` binary used in the Karbon project.
+This repository contains the source code for the `proot` binary used in the [Karbon project](https://github.com/RohitKushvaha01/Xed-Editor).
 
 ## Source
 
