@@ -22,6 +22,8 @@ To build the `proot` binary, follow these steps:
     cd Proot
     ```
 
+**NOTE:** if you are building for package name other than *com.rk.xededitor*(karbon) you have change the package name in GNUmakefile
+
 3. Execute the build script:
     ```bash
     bash compile.sh
